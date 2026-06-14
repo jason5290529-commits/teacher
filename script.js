@@ -1,6 +1,6 @@
 // Click事件
 function showWelcome() {
-    alert("歡迎來到陳建彰教授介紹網站！");
+    alert("拜託讓我過 老師大大！");
 }
 
 // Mouseover事件
