@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>陳建彰教授介紹網站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>陳建彰教授介紹網站</h1>
+    <p>淡江大學資訊工程學系</p>
+</header>
+
+<nav>
+    <a href="index.html">首頁</a>
+    <a href="teacher.html">教授介紹</a>
+    <a href="research.html">研究專長</a>
+    <a href="course.html">課程學習</a>
+    <a href="contact.html">聯絡資訊</a>
+</nav>
+
+<main>
+    <section class="hero">
+        <article>
+            <h2>我選擇陳建彰教授的原因</h2>
+
+            <p>
+                我選擇介紹陳建彰教授，是因為他是我大一的班級指導老師，
+                也是我在入學面試時印象很深刻的一位老師。
+            </p>
+
+            <p>
+                剛進入大學時，班級指導老師對學生來說不只是認識系上的重要窗口，
+                也影響了我對淡江大學資訊工程學系的第一印象。
+            </p>
+
+            <button onclick="showWelcome()">點我看網站介紹</button>
+        </article>
+    </section>
+
+    <section class="cards">
+
+        <article class="card" onmouseover="cardOver(this)" onmouseout="cardOut(this)">
+            <h3>教授介紹</h3>
+            <p>介紹陳建彰教授的職稱、經歷與學經歷。</p>
+        </article>
+
+        <article class="card" onmouseover="cardOver(this)" onmouseout="cardOut(this)">
+            <h3>研究專長</h3>
+            <p>介紹影像處理、浮水印、視覺密碼與多媒體系統。</p>
+        </article>
+
+        <article class="card" onmouseover="cardOver(this)" onmouseout="cardOut(this)">
+            <h3>學習心得</h3>
+            <p>說明我選擇這位老師作為期末專題主題的原因。</p>
+        </article>
+
+    </section>
+</main>
+
+<footer>
+    <p>期末網頁專題｜淡江大學資訊工程學系</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
